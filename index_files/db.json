@@ -1,0 +1,18 @@
+{
+	"users":[
+		{
+			"id": 1,
+			"name": "John"
+		},
+		{
+			"id": 2,
+			"name": "Petr"
+		}
+	],
+	"orders":[
+		{
+			"id":1,
+			"order#":111
+		}
+	]
+}

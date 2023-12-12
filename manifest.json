@@ -1,0 +1,90 @@
+{
+    "background_color": "#ffffff",
+    "description": "Наполеон Онлайн",
+    "display": "standalone",
+    "name": "Наполеон Онлайн",
+    "short_name": "Наполеон",
+    "orientation": "portrait",
+    "id": "/",
+	"scope": "/",
+    "theme_color": "#1976D2",
+    "prefer_related_applications": true,
+    "related_applications": [
+        {
+			
+            "platform": "webapp",
+            "url": "http:/192.168.0.113"
+		}
+    ],
+	
+    "icons": [
+        {
+            "purpose": "maskable",
+            "sizes": "512x512",
+            "src": "./index_files/Napoleon icon.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "512x512",
+            "src": "./index_files/Napoleon icon.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "192x192",
+            "src": "./index_files/Napoleon icon.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "180x180",
+            "src": "./index_files/Napoleon icon.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "152x152",
+            "src": "./index_files/Napoleon icon.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "144x144",
+            "src": "./index_files/Napoleon icon.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "120x120",
+            "src": "./index_files/Napoleon icon.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "114x114",
+            "src": "./index_files/Napoleon icon.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "76x76",
+            "src": "./index_files/Napoleon icon.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "72x72",
+            "src": "./index_files/Napoleon icon.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "60x60",
+            "src": "./index_files/Napoleon icon.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "57x57",
+            "src": "./index_files/Napoleon icon.png",
+            "type": "image/png"
+        }
+    ],
+	"gcm_sender_id": "",
+	"gcm_user_visible_only": true,
+	"start_url": "/?utm_source=homescreen",
+	"permissions": [
+    "gcm"
+  ]
+	
+}

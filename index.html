@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    <title>Napoleon Admin Panel</title>
+	
+	
+	
+	
+	<script type="text/javascript">
+		if ("serviceWorker" in navigator) {
+		  // Register a service worker hosted at the root of the site using the default scope.
+		  navigator.serviceWorker.register("sw.js").then(
+			(registration) => {
+			  console.log("Service worker registration succeeded:", registration);
+			},
+			(error) => {
+			  console.log("Service worker registration failed: ${error}");
+			},
+		  );
+		} else {
+		  console.error("Service workers are not supported.");
+		}
+	</script>
+	
+	
+	<!-- ПРИЛОЖЕНИЕ ДЛЯ ВСЕХ -->
+		<link rel="manifest" href="manifest.json">
+		<!--<script defer="" src="index.js"></script>-->
+		
+		<!-- ИКОНКИ -->
+		<link rel="icon" type="image/x-icon" href="./index_files/Napoleon icon.png">
+		<link rel="icon" type="image/png" href="./index_files/Napoleon icon.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="./index_files/Napoleon icon.png" sizes="192x192">
+		<link rel="icon" type="image/png" href="./index_files/Napoleon icon.png" sizes="128x128">
+		<link rel="icon" type="image/png" href="./index_files/Napoleon icon.png" sizes="16x16">
+		<link rel="apple-touch-icon" href="./index_files/Napoleon icon.png">
+		
+		
+		<!-- ПРИЛОЖЕНИЕ ДЛЯ APPLE -->
+		<meta name="apple-touch-fullscreen" content="yes">
+		<meta name="apple-mobile-web-app-title" content="Наполеон Онлайн">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="default">
+		
+		
+		<!-- ПРИЛОЖЕНИЕ ДЛЯ ANDROID -->
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="theme-color" content="#1976D2">
+		
+		<!-- ПРИЛОЖЕНИЕ ДЛЯ WINDOWS -->
+		<meta name="msapplication-TileColor" content="#FFFFFF">
+		<meta name="msapplication-TileImage" content="./index_files/Napoleon icon.png">
+		<meta name="msapplication-navbutton-color" content="#1976D2">
+		<meta name="msapplication-config" content="browserconfig.xml">
+		<meta name="msapplication-tooltip" content="Tooltip Text">
+		<meta name="msapplication-starturl" content="/">
+
+	
+</head>
+
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <a href="#" class="logo">
+            <i class='bx bx-code-alt'></i>
+            <div class="logo-name"><span>NAPO</span>LEON</div>
+        </a>
+        <ul id = "test_menu" class="side-menu">
+            <li><a href="#"><i class='bx bx-home' ></i>Dashboard</a></li>
+			<li><a href="#"><i class='bx bx-group'></i>Users</a></li>
+            <li><a href="#"><i class='bx bxs-package'></i>Orders</a></li>
+            <li><a href="#"><i class='bx bx-cog'></i>Settings</a></li>
+			
+			<!--
+			<li><a href="#"><i class='bx bx-home bx-tada' ></i>Dashboard</a></li>
+			<li><a href="#"><i class='bx bx-group bx-tada'></i>Users</a></li>
+            <li><a href="#"><i class='bx bxs-package bx-tada'></i>Orders</a></li>
+            <li><a href="#"><i class='bx bx-cog bx-tada'></i>Settings</a></li>
+			-->
+        </ul>
+        <ul class="side-menu">
+            <li><a href="#" class="logout"><i class='bx bx-log-out-circle'></i>Logout</a></li>
+        </ul>
+    </div>
+    <!-- End of Sidebar -->
+
+    <!-- Main Content -->
+    <div class="content">
+        <!-- Navbar -->
+        <nav>
+            <i class='bx bx-menu'></i>
+            <form action="#">
+                <div class="form-input">
+                    <input type="search" placeholder="Search...">
+                    <button class="search-btn" type="submit"><i class='bx bx-search'></i></button>
+                </div>
+            </form>
+            <input type="checkbox" id="theme-toggle" hidden>
+            <label for="theme-toggle" class="theme-toggle"></label>
+            <a href="#" class="notif">
+                <i class='bx bx-bell'></i>
+                <span class="count">1</span>
+            </a>
+            <a href="#" class="profile">
+                <img src="./index_files/Napoleon icon.png">
+            </a>
+        </nav>
+
+        <!-- End of Navbar -->
+
+        <main>
+            <div class="header">
+                <div class="left">
+                    <h1>Dashboard</h1>
+                </div>
+                <a href="#" class="report">
+                    <i class='bx bx-cloud-download'></i>
+                    <span>Download CSV</span>
+                </a>
+            </div>
+
+            <!-- Insights -->
+            <ul class="insights">
+                <li>
+                    <i class='bx bx-calendar-check'></i>
+                    <span class="info">
+                        <h3>
+                            1,074
+                        </h3>
+                        <p>Paid Order</p>
+                    </span>
+                </li>
+                <li><i class='bx bx-show-alt'></i>
+                    <span class="info">
+                        <h3>
+                            3,944
+                        </h3>
+                        <p>Site Visit</p>
+                    </span>
+                </li>
+                <li><i class='bx bx-line-chart'></i>
+                    <span class="info">
+                        <h3>
+                            14,721
+                        </h3>
+                        <p>Searches</p>
+                    </span>
+                </li>
+                <li><i class='bx bx-dollar-circle'></i>
+                    <span class="info">
+                        <h3>
+                            $6,742
+                        </h3>
+                        <p>Total Sales</p>
+                    </span>
+                </li>
+            </ul>
+            <!-- End of Insights -->
+
+            <div class="bottom-data">
+                <div class="orders">
+                    <div class="header">
+                        <i class='bx bx-receipt'></i>
+                        <h3>Recent Orders</h3>
+                        <i class='bx bx-filter'></i>
+                        <i class='bx bx-search'></i>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>User</th>
+                                <th>Order Date</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img src="./index_files/Napoleon icon.png">
+                                    <p>John Doe</p>
+                                </td>
+                                <td>14.08.2023</td>
+                                <td><span class="status completed">Completed</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="./index_files/Napoleon icon.png">
+                                    <p>John Doe</p>
+                                </td>
+                                <td>14.08.2023</td>
+                                <td><span class="status pending">Pending</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="./index_files/Napoleon icon.png">
+                                    <p>John Doe</p>
+                                </td>
+                                <td>14.08.2023</td>
+                                <td><span class="status process">Processing</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                
+
+                
+
+            </div>
+
+        </main>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
