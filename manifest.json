@@ -13,7 +13,7 @@
         {
 			
             "platform": "webapp",
-            "url": "http:/192.168.0.113"
+            "url": "https://lzabrak.github.io/AdminPanel/"
 		}
     ],
 	
@@ -82,7 +82,7 @@
     ],
 	"gcm_sender_id": "",
 	"gcm_user_visible_only": true,
-	"start_url": "/?utm_source=homescreen",
+	"start_url": "/,
 	"permissions": [
     "gcm"
   ]
