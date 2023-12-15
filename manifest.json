@@ -5,8 +5,8 @@
     "name": "Наполеон Онлайн",
     "short_name": "Наполеон",
     "orientation": "portrait",
-    "id": "/",
-	"scope": "/AdminPanel",
+    "id": "/AdminPanel/",
+	"scope": "/AdminPanel/",
     "theme_color": "#1976D2",
     "prefer_related_applications": true,
     "related_applications": [
