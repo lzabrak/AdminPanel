@@ -6,7 +6,7 @@
     "short_name": "Наполеон",
     "orientation": "portrait",
     "id": "/",
-	"scope": "/",
+	"scope": "/AdminPanel",
     "theme_color": "#1976D2",
     "prefer_related_applications": true,
     "related_applications": [
