@@ -1,12 +1,12 @@
 {
-    "background_color": "#1976D2",
+    "background_color": "#FFFFFF",
     "description": "Наполеон Онлайн",
     "display": "standalone",
     "name": "Наполеон Онлайн",
     "short_name": "Наполеон",
     "orientation": "portrait",
-    "id": "/AdminPanel/",
-	"scope": "/AdminPanel/",
+    "id": "/",
+	"scope": "/",
     "theme_color": "#1976D2",
     "prefer_related_applications": true,
     "related_applications": [
